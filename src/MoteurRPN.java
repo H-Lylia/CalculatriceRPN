@@ -47,7 +47,7 @@ public class MoteurRPN {
 
 	}
 	
-	public static void main (String s[]) throws DivisionParZeroException, OperandeManquanteException{
+	public static void main (String s[]) throws DivisionParZeroException, OperandeManquanteException, InferieurAMinException, SuperieurAMaxException {
  /*   	Operation op = Operation.MOINS;
     	Operation op2 = Operation.MULT;
 
