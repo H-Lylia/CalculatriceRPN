@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 public class SaisieRPN {
-MoteurRPN RPNM;
+	public SaisieRPN(){
+		MoteurRPN RPNM = new MoteurRPN();
+	}
+
 
 public void saisie (MoteurRPN RPNM) {
 	Scanner scan = new Scanner (System.in);
@@ -12,9 +15,7 @@ public void saisie (MoteurRPN RPNM) {
 		if (!s.equals("exit"))
 		{
 			if (s.equals('/')) {
-				Operation op = Operation.DIV;
-				op.symbol='/';
-				RPNM.calculate(op);
+				RPNM.calculate(Operation.DIV);
 				
 			}
 			
