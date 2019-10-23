@@ -10,7 +10,7 @@ public class MoteurRPN {
 		
 	}
 	
-	private static void calculate (Operation op) throws DivisionParZeroException, OperandeManquanteException {
+	public static void calculate (Operation op) throws DivisionParZeroException, OperandeManquanteException {
 		
 		double res=0;
 		

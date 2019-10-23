@@ -9,25 +9,22 @@ public void saisie (MoteurRPN RPNM) {
 	while (scan.hasNextLine()) {
 		String s = scan.nextLine();
 		
-		if (s.equals("exit"))
+		if (!s.equals("exit"))
 		{
-			
+			if (s.equals('/')) {
+				Operation op = Operation.DIV;
+				op.symbol='/';
+				RPNM.calculate(op);
+				
+			}
 			
 		}
-		//else if (isNumeric(s)) {
+		
+		
 	}
 }
-/*
-public static boolean isNumeric(String strNum) throws PasUnNombreException{
-	double d;
-	if (d != Double.parseDouble(strNum)) {
-		throw new PasUnNombreException ();
-		return false;
-	}
-	return true;
-        		   
-	}
-*/
+
+
   
 
 
