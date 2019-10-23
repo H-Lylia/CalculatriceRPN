@@ -14,10 +14,10 @@ public void saisie (MoteurRPN RPNM) {
 			
 			
 		}
-		else if (isNumeric(s)) {
+		//else if (isNumeric(s)) {
 	}
 }
-
+/*
 public static boolean isNumeric(String strNum) throws PasUnNombreException{
 	double d;
 	if (d != Double.parseDouble(strNum)) {
@@ -27,7 +27,7 @@ public static boolean isNumeric(String strNum) throws PasUnNombreException{
 	return true;
         		   
 	}
-
+*/
   
 
 

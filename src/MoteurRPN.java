@@ -15,7 +15,7 @@ public class MoteurRPN {
 		double res=0;
 		
 		if (Pile.size()== 1 || Pile.isEmpty()) {
-	    	//System.out.println("llllll");
+	    	/*/System.out.println("llllll");*/
 	    	throw new OperandeManquanteException();
 	    }
 		double top1 = Pile.pop();
@@ -63,4 +63,6 @@ public class MoteurRPN {
 		ajouterAPile(4);
 		
 		calculate (op2);
-		
+	}
+	
+}
