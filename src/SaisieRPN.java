@@ -51,7 +51,11 @@ public class SaisieRPN {
 					
 					}
 				}
-				//System.out.println();
+			
+			else {
+				System.out.println("Programme terminé. A bientot :)");
+				System.exit(1);
+			}
 				RPNM.AffichePile();
 					
 			}
