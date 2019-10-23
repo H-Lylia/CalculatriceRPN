@@ -17,6 +17,7 @@ public enum Operation {
 	MULT('*'){
 		@Override
 		public double eval(double a, double b){
+			System.out.println("Multiplication");
 			return a*b;
 		}
 	},

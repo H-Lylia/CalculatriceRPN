@@ -4,7 +4,7 @@ public class MoteurRPN {
 	
 	public static Stack<Double> Pile = new Stack<Double>();
 	
-	private static void ajouterAPile(double d) {
+	public static void ajouterAPile(double d) {
 		Pile.push(d);
 		//System.out.println("zzzzzzzzz");
 		
@@ -48,13 +48,9 @@ public class MoteurRPN {
 	}
 	
 	public static void main (String s[]) throws DivisionParZeroException, OperandeManquanteException{
-    	Operation op = Operation.MOINS;
+ /*   	Operation op = Operation.MOINS;
     	Operation op2 = Operation.MULT;
-//		double a,b;
-//		a= 10; b = 5;
-//		a = op.eval(a, b);
-//		System.out.println(a);
-//		ajouterAPile(5);
+
 		ajouterAPile(9);
 		ajouterAPile(6);
 		
@@ -63,6 +59,22 @@ public class MoteurRPN {
 		ajouterAPile(4);
 		
 		calculate (op2);
+		
+*/
+		System.out.println("ca marche");
+		
+		MoteurRPN RPNM = new MoteurRPN();
+		SaisieRPN SS = new SaisieRPN();
+		SS.saisie(RPNM);
+	}
+	
+	public static void AffichePile() {
+		/*
+		for (double i :Pile) {
+			System.out.println(Pile.);
+		}
+		*/
+		Pile.forEach(k-> {System.out.println(""+k);} );
 	}
 	
 }
