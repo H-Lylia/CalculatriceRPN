@@ -1,13 +1,2 @@
-/CalculatriceRPN.class
-/DivisionParZeroException.class
-/InferieurAMinException.class
-/MoteurRPN.class
-/OperandeManquanteException.class
-/Operation$1.class
-/Operation$2.class
-/Operation$3.class
-/Operation$4.class
-/Operation.class
-/PasUnNombreException.class
-/SaisieRPN.class
-/SuperieurAMaxException.class
+/testCalculatriceRPN.class
+/calculatriceRPN/

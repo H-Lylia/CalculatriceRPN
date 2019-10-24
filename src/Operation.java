@@ -4,6 +4,7 @@ public enum Operation {
 	PLUS('+'){
 		@Override
 		public double eval(double a, double b){
+			System.out.println("Addition \n");
 			return a+b;
 		}
 	},
@@ -11,19 +12,21 @@ public enum Operation {
 	MOINS('-'){
 		@Override
 		public double eval(double a, double b){
+			System.out.println("Soustraction \n");
 			return a-b;
 		}
 	},
 	MULT('*'){
 		@Override
 		public double eval(double a, double b){
-			System.out.println("Multiplication");
+			System.out.println("Multiplication \n");
 			return a*b;
 		}
 	},
 	DIV('/'){
 		@Override
 		public double eval(double a, double b){
+			System.out.println("Division \n");
 			return a/b;
 		}
 	};

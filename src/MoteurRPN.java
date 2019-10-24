@@ -35,12 +35,12 @@ public class MoteurRPN {
 		
 		ajouterAPile(res);
 		
-		System.out.println("the result is : " + res);
+		System.out.println("Le resultat est : " + res);
 	}
 	
 	public static void m () throws DivisionParZeroException, OperandeManquanteException, InferieurAMinException, SuperieurAMaxException {
 
-		System.out.println("ca marche");
+		System.out.println("Veuillez inserer les operations que vous souhaitez effectuer\n");
 		
 		MoteurRPN RPNM = new MoteurRPN();
 		SaisieRPN SS = new SaisieRPN();
